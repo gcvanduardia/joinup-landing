@@ -130,6 +130,7 @@ h6 {
   width: 60%;
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-left: 100px;
 
 }
 
@@ -568,7 +569,7 @@ h6 {
   width: 100%;
   position: relative;
   background: url("../img/hero-bg.jpg");
-  padding: 110px 0;
+  padding: 110px 110px 110px 200px;
 }
 
 #hero h1 {
@@ -1600,7 +1601,9 @@ section {
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
-  padding: 30px 20px;
+  max-width: 400px;
+  margin: 0 auto; /* Centra el contenedor dentro de su padre */
+  
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1619,23 +1622,21 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 24px; /* Aumenta el tamaño del ícono */
+  width: 50px; /* Aumenta el ancho del botón */
+  height: 50px; /* Aumenta la altura del botón */
+  line-height: 50px; /* Centra el ícono verticalmente */
   display: inline-block;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
+  border-radius: 50%; /* Mantiene la forma circular */
+  color: #fff; /* Color del ícono */
+  transition: 0.3s; /* Animación suave */
+  margin: 0 10px;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
-  color: #fff;
-  text-decoration: none;
+    background-color: #34e5a6; /* Cambia el color al pasar el mouse */
+    transform: scale(1.1); /* Efecto de agrandamiento */
 }
 
 #footer .footer-top h4 {
